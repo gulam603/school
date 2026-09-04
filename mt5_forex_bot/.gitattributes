@@ -1,0 +1,11 @@
+# Windows launcher scripts must keep CRLF line endings to run under cmd.exe.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Everything else is LF.
+*.py   text eol=lf
+*.ts   text eol=lf
+*.tsx  text eol=lf
+*.css  text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
